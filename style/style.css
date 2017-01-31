@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 55px auto;
+	padding: 25px;
+	text-align: center;
+	width: 75%;
+}
+
+
+.list-box, .checklist-box {
+	margin: 20px auto;
+	width: 60%;
+}
+
+.item {
+	border: 1px solid lightgrey;
+	width: 90%;
+	padding: 3px 10px;
+	text-align: left;
+}
+
+.control {
+	font-size: 28px;
+	float: right;
+	margin: 10px 0px;
+	width: 85px;
+	text-align: center;
+}
+
+.control>span {
+	display: inline-block;
+	margin: 0px 6px;
+}
+
+.control>span:hover {
+	cursor: pointer;
+}
+
+.check-button:hover {
+	color: lightgreen;
+}
+
+.delete-button:hover {
+	color: red;
+}
+
+p.item-text {
+	display: inline-block;
+	width: 70%;
+}
+
+.checked {
+	color: lightgrey;
+	font-style: italic;
+	text-decoration: line-through;
+}
